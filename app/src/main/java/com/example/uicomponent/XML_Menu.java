@@ -23,7 +23,8 @@ public class XML_Menu extends AppCompatActivity {
         inflater.inflate(R.menu.xml_menu, menu);
         return true;
     }
-    @Override public boolean onOptionsItemSelected(MenuItem item) {
+    @Override 
+    public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.inner1:
                 textView.setTextSize(10);
